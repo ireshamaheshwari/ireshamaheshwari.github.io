@@ -4,20 +4,23 @@
         <title> COURSE </title>
     </head>
     <style>
+        #tag{
+            font-size: 10px;
+        }
         .grid-container{
-		width:770px;
-            padding:5px;
+		    width:650px;
+            padding:0px;
             display:grid;
             grid-gap:5px;
 			border-radius:50px;
 			
         }
         .grid-container>div{
-		width:745px;
+		width:640px;
 		border:1px solid white;
-		border-radius:50px;
+		border-radius:40px;
 		    color:white;
-            padding:5px;
+            padding:2px;
             background-color:rgba(104,56,129,0.8);
         }
         #main:hover{
@@ -28,8 +31,8 @@
 		text-decoration:none;
 		}
         table{
-		   border-radius:10px;
-		   border:5px solid black;
+		   border-radius:8px;
+		   border:4px solid black;
         }
         th,td{
 		    border:2px solid black;
@@ -93,22 +96,22 @@
                 <td>3</td>
             </tr>
             <tr>
-                <td>4</td>
-                <td>HST102</td>
-                <td><strong><a href=#item4>Health, Safety and Environment</a></strong></td>
-                <td>1</td>
-                <td>0</td>
-                <td>0</td>
-                <td>1</td>
-            </tr>
-            <tr>
                 <td>5</td>
                 <td>HST104</td>
-                <td><strong><a href=#item5>Human Values and Effective Communication</a></strong></td>
+                <td><strong><a href=#item4>Human Values and Effective Communication</a></strong></td>
                 <td>2</td>
                 <td>0</td>
                 <td>0</td>
                 <td>2</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>HST102</td>
+                <td><strong><a href=#item5>Health, Safety and Environment</a></strong></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
             </tr>
             <tr>
                 <td>6</td>
@@ -180,101 +183,89 @@
         <br><br>
        
         <div class="grid-container">
-            <div ><pre >           <strong id="item1">         Syllabus</strong>
-<b>Introduction:</b> Concept of Data Structures, Algorithms and ADT (Abstract Data Type), Program v/s
-algorithms, Execution time and storage space, Complexity - time and space, Asymptotic notations -
-O(n), Ω(n) Q(n).
-<b>Array: </b>Array as storage element, computing address in n-dimensional array. Insertion and Deletion,
-Searching (Sequential and binary), Sorting (Bubble sort, Insertion, Selection, Merge sort, Quick sort,
-radix sort), Representation of polynomial and its applications, Representation of Sparse matrix and its
-applications. Linked lists - Single and double linked lists, Insertion/deletion/searching in linked lists,
+        <div ><center id="item1" class="tag">DSA</center>
+<pre>
+<b>Introduction:</b> Concept of Data Structures, Algorithms and ADT (Abstract Data Type),
+Program v/s algorithms, Execution time and storage space, Complexity - time and space, 
+Asymptotic notations - O(n), Ω(n) Q(n).
+<b>Array: </b>Array as storage element, computing address in n-dimensional array.
+Insertion and Deletion,Searching (Sequential and binary), Sorting (Bubble sort, 
+Insertion, Selection, Merge sort, Quick sort, radix sort), Representation of polynomial
+and its applications, Representation of Sparse matrix and its applications. Linked lists
+- Single and double linked lists, Insertion/deletion/searching in linked lists,
 Comparison of arrays and linked lists, Implementation of circular lists.
-<b>Stack and Queue:</b> Stack, Queue, Circular queue, Concept of overflow and underflow, Concept of
-precedence and associativity in expressions, Resolving precedence of operators and association of
-operands, Evaluation of Expression - Infix, Prefix & Postfix notations, conversion of expression from
-one form to other form, Recursion - concepts, use and implementation. Strings, Hash tables (open and
-close), Dictionary, Sets
-<b>Trees: </b>Concept of Trees, Binary and Multiway tree, Representing multiway tree as Binary tree, Tree
-Traversal, constructing Binary tree from Traversal, BST (Binary Search Tree), threaded and
-unthreaded BST as data structure, Insertion/Deletion/Search in BST, Heap Tree and Heap sort,
-Introduction to height balanced tree.
-Graphs: Introduction to graphs (directed and undirected), representation of graphs using adjacency
-matrix and list, Graph Traversals - DFS and BFS, Topological sorting.
-<b>Text book(s)</b>
-1. Ellis Horowitz, SartajSahni, “Fundamentals of Data Structures”, Computer Science Press
-2. R.L. Kruse, “Data Structure and Program Design”, Prentice-Hall India
-<b>Reference book(s)</b>
-1. A.V. Aho, J.D. Ullman, J.E. Hopcroft, “Data Structures and algorithms”, Addison-Wesley
-2. Y. Langsam, M.J. Augenstein, A.M. Tanenbaum, “Data Structures Using C”, Prentice-Hall India
-3. M.A. Weiss, “Data Structures and Algorithm Analysis in C++”, Pearson Addison-Wesley</pre>
-            </div>
-            <div><pre>
-                <strong id="item2">        Syllabus</strong>
-<b>Introduction to Internet: </b>Introduction, Evolution of Internet, Internet Applications, Internet Protocol -
-TCP/IP, UDP, HTTP, Secure Http (Shttp), Internet Addressing – Addressing Scheme – Ipv4 & IPv6,
-Network Byte Order, Domain Name Server and IP Addresses, Mapping. Internet Service Providers,
-<b>Web Technologies: </b>Three Tier Web Based Architecture; Jsp, Asp, J2ee, .Net Systems.<br>
-HTML CSS and Scripting: HTML – Introduction, Sgml, Dtd (Document Type Definition, Basic Html
-Elements, Tags and usages, HTML Standards, Issues in HTML, Dhtml: Introduction, Cascading Style
-<b>Sheets: </b>Syntax, Class Selector, Id Selector Dom (Document Object Model) & Dso (Data Source
-Object), Approaches To Dynamic Pages: Cgi, Java Applets, Plug Ins, Active X, Java Script – Java
-Script Object Model, Variables-Constant – Expressions, Conditions- Relational Operators- Data
-Types – Flow Control – Functions & Objects-events and event handlers – Data type Conversion &
-Equality – Accessing HTML form elements.
-<b>XML: </b>Basic Standards, Schema Standards, Linking & Presentation Standards, Standards that build
-on XML, Generating XML data, Writing a simple XML File, Creating a Document type definition,
-Documents & Data ,Defining Attributes & Entities in the DTD, Defining Parameter Entities &
-conditional Sections, Resolving a naming conflict, Using Namespaces, Designing an XML data
-structure, Normalizing Data, Normalizing DTDS.
-<b>Internet Security & Firewalls: </b>Security Threats From Mobile Codes, Types Of Viruses, Client Server
-Security Threats, Data & Message Security,
-<b>Website Planning & Hosting: </b>Introduction, Web Page Lay-Outing, Where To Host Site, Maintenance
-Of Site, Registration Of Site On Search Engines And Indexes, Introduction To File Transfer Protocol,
-Public Domain Software, Types Of Ftp Servers (Including Anonymous),Ftp Clients Common
-Command. Telnet Protocol, Server Domain, Telnet Client, Terminal Emulation. Usenet And Internet
-Relay Chat.
+<b>Stack and Queue:</b> Stack, Queue, Circular queue, Concept of overflow and underflow,
+Concept of precedence and associativity in expressions, Resolving precedence of operators
+and association of operands, Evaluation of Expression - Infix, Prefix & Postfix notations,
+conversion of expression from one form to other form, Recursion - concepts, use and 
+implementation. Strings, Hash tables (open and close), Dictionary, Sets
+<b>Trees: </b>Concept of Trees, Binary and Multiway tree, Representing multiway tree as 
+Binary tree, Tree Traversal, constructing Binary tree from Traversal, BST (Binary Search
+Tree), threaded and unthreaded BST as data structure, Insertion/Deletion/Search in BST, 
+Heap Tree and Heap sort, Introduction to height balanced tree.
+<b>Graphs:</b> Introduction to graphs (directed and undirected), representation of graphs
+using adjacency matrix and list, Graph Traversals - DFS and BFS, Topological sorting.
+</pre>
+</div>
+<div><pre>
+<center id="item2" class="tag">IWT</center>
+<b>Introduction to Internet: </b>Introduction, Evolution of Internet, Internet Applications,
+Internet Protocol -TCP/IP, UDP, HTTP, Secure Http (Shttp), Internet Addressing -
+Addressing Scheme -Ipv4 & IPv6,Network Byte Order, Domain Name Server and IP Addresses, 
+Mapping. Internet Service Providers,
+<b>Web Technologies: </b>Three Tier Web Based Architecture; Jsp, Asp, J2ee, .Net Systems.
+HTML CSS and Scripting: HTML -Introduction, Sgml, Dtd (Document Type Definition, Basic 
+Html Elements, Tags & usages, HTML Standards, Issues in HTML, Dhtml: Introduction
+<b>Cascading Style Sheets: </b>Syntax, Class Selector, Id Selector Dom (Document Object 
+Model) & Dso (Data Source Object), Approaches To Dynamic Pages: Cgi, Java Applets, Plug 
+Ins, Active X, Java Script -Java Script Object Model, Variables-Constant -Expressions, 
+Conditions- Relational Operators- DataTypes -Flow Control -Functions & Objects-events & 
+event handlers -Data type Conversion & Equality -Accessing HTML form elements.
+<b>XML: </b>Basic Standards, Schema Standards, Linking & Presentation Standards, Standards 
+that build on XML, Generating XML data, Writing a simple XML File, Creating a Document 
+type definition, Documents & Data ,Defining Attributes & Entities in the DTD, Defining 
+Parameter Entities & conditional Sections, Resolving a naming conflict, Using Namespaces, 
+Designing an XML data structure, Normalizing Data, Normalizing DTDS.
+<b>Internet Security & Firewalls: </b>Security Threats From Mobile Codes, Types Of Viruses,
+Client Server Security Threats, Data & Message Security,
+<b>Website Planning & Hosting: </b>Introduction, Web Page Lay-Outing, Where To Host Site, 
+Maintenance Of Site, Registration Of Site On Search Engines And Indexes, Introduction To 
+File Transfer Protocol, Public Domain Software, Types Of Ftp Servers (Including 
+Anonymous), Ftp Clients Common Command. Telnet Protocol, Server Domain, Telnet Client, 
+Terminal Emulation. Usenet And Internet Relay Chat.
 <b>Text Book(s)</b>
-1. Craig Knuckles, David Yuen, “Web Applications Technologies Concepts and Real World Design”,
-John Wiley, 1st Edition
+1. Craig Knuckles, David Yuen, “Web Applications Technologies Concepts and Real World 
+Design”,John Wiley, 1st Edition
 2. Robert W. Sebesta, “Programming with World Wide Web”, Pearson, 6th Edition
 3. Daniel Minoli, “Internet & Intranet Engineering”, Tata McGraw Hill.
 <b>Reference Book(s)</b>
 1. Mark Pilgrim, “Dive Into Python 3”, Apress, 2010
-2. W. Jason Gilmore, “Beginning PHP and MySQL: From Novice to Professional”, Apress, 2008</pre>
+2. W. Jason Gilmore, “Beginning PHP and MySQL: From Novice to Professional”, Apress,2008
+</pre>
             </div>
-           <div><pre><strong id="item3">             Syllabus</strong>
-Types of materials, Characteristics of intrinsic and extrinsic semiconductors, Junction diode and its
-characteristics, Ideal diode and its applications (half-wave and full-wave rectifiers in voltage
-regulators, positive and negative clippers, positive and negative clampers, digital logic circuits),
-Nonideal diode models, Zener diodes and its applications (clipper, voltage regulator), Diode capacitance
-and switching times, Types of diodes (LED, Varactor diode, Schottky diode, Photodiode).
-Bipolar Junction Transistor (BJT types, operation, configurations, characteristics), Cutoff and
-saturation operations, BJT switching times, Applications to digital logic circuits (DTL, TTL, ECL,
-RTL), Phototransistor.
-Field Effect Transistor (FET types, operation, configurations, characteristics), Metal-Oxide
-Semiconductor FET (MOSFET types, their logic gate applications), Complimentary MOSFET
-(CMOS).
-BJT biasing and small-signal analysis of BJT amplifiers, FET biasing and small-signal analysis of
-FET amplifiers, Frequency response (low-frequency and high-frequency responses of amplifiers),
-Large-signal power amplifiers (class A, class B, class AB).
-Feedback (concept of negative and positive feedback, characteristics of negative feedback amplifiers,
-negative feedback amplifiers topologies, sinusoidal oscillators), Multivibrators (Bistable, Astable and
-Monostable).
-<b>Text book(s)</b>
-1. Leonard S. Bobrow, Navneet Gupta, “Foundations of Electrical Engineering”, Oxford University
-Press, Asian Edition
-2. Jacob Millman, Christos C. Halkias, “Integrated Electronics: Analog and Digital Circuits and
-Systems”, Tata McGraw Hill
-<b>Reference book(s)</b>
-1. Adel S. Sedra, Kenneth C. Smith, “Microelectronic Circuits”, Oxford University Press, 5th Edition
-2. Donald A. Neamen, “Microelectronics: Circuit Analysis and Design”, McGraw Hill, 4th Edition
-3. Robert Boylestad, Louis Nashelsky, “Electronic Devices and Circuit Theory”, Prentice Hall, 7th
-Edition</pre></div>
-<div><pre>                                   <strong id="item4">Syllabus</strong>
+<div><pre><center id="item3" class="tag">EDC</center>
+Types of materials, Characteristics of intrinsic and extrinsic semiconductors, Junction 
+diode and its characteristics, Ideal diode and its applications (half-wave and full-wave 
+rectifiers in voltage regulators, positive and negative clippers, positive and negative 
+clampers, digital logic circuits), Nonideal diode models, Zener diodes and its 
+applications (clipper, voltage regulator), Diode capacitance & switching times, Types of 
+diodes (LED, Varactor diode, Schottky diode, Photodiode).Bipolar Junction Transistor (BJT
+types, operation, configurations, characteristics), Cutoff & saturation operations, BJT 
+switching time, Applications to digital logic circuits (DTL,TTL,ECL,RTL), Phototransistor. 
+Field Effect Transistor (FET types, operation, configurations, characteristics), Metal-
+Oxide Semiconductor FET ( MOSFET types, their logic gate applications), Complimentary 
+MOSFET (CMOS). 
+BJT biasing & small-signal analysis of BJT amplifiers, FET biasing and small-signal 
+analysis of FET amplifiers, Frequency response (low-frequency and high-frequency 
+responses of amplifiers),Large-signal power amplifiers (class A, class B, class AB). 
+Feedback (concept of negative & positive feedback, characteristics of negative feedback 
+amplifiers, negative feedback amplifiers topologies, sinusoidal oscillators), 
+Multivibrators (Bistable, Astable and Monostable).
+</pre></div>
+<div><pre><center id="item4" class="tag">Human Values & Effective Communication</center>
 Report Writing
-Business correspondence (letters of enquiry, order, complaints and reply). Notices, Agenda, Minutes
-of meeting
-Vocabulary practice
+Business correspondence (letters of enquiry, order, complaints and reply). Notices, 
+Agenda, Minutes of meeting & Vocabulary practice
 Human Values - Reading from Textbooks and Discussion
 Text book(s)
 1. A.P.J. Abdul Kalam, “Wings of fire”
@@ -287,107 +278,83 @@ Text book(s)
 8. Hugh Prather, “Excerpts from Notes to Myself”
 Reference book(s)
 1. Jonathan Weyers, Kathleen McMillan, “The Study Skills Book”, Pearson, 2012
-2. PushpLata, “Communicate to Conquer: A Handbook of Group Discussion and Job Interviews”,
-PHI Learning
+2. PushpLata, “Communicate to Conquer: A Handbook of Group Discussion and Job 
+Interviews”,PHI Learning
 3. NiraKonar, “Communication Skills for Professionals”, PHI Learning, 2011
 4. KavitaTyagi, Padma Mishra, “Advanced Technical Communication”, PHI Learning
-5. Sanjay Kumar, PushpLata, “Communication Skills”, Oxford, 2011</pre></div>
-<div><pre>                                   <strong id="item5">Syllabus</strong>
-Introduction to health and toxicity, various hazards to human health, risk assessment, various acts.
-Noise and vibration Health effects, exposure and radiation effects, machinery and equipment,
-electricity at work, Fire and Emergency Egress, Personal Protective Equipment, Accidents and
-Emergencies.
-Safety performance – As per Indian and International standards; Hazard analysis: Cost effectiveness
-in hazard elimination, logical analysis, HAZOP; Probabilistic reliability considerations, Safety
-management techniques.
-Water, Air and land pollution – Classification and properties of pollutants, sources, control, Water,
-wastewater and health, pesticides and health, Solid Waste Management, Environmental Acts and
-Laws, current topics in environmental heath, Role of Information Technology in Environment and
-human health, Social Issues and the Environment.
-<b>Text book(s)</b>
-1. “Handbook of Occupational Health and Safety”, NSC Chicago, 1982
-2. “Encyclopedia of Occupational Health and Safety, Vol. I and II”, International Labour
-Organization
-3. Benny Joseph, “Environmental Studies”, Tata McGraw Hill publication
-<b>Reference book(s)</b>
-1. Organization, Geneva, 1985
-2. J. McCornick, M.S. Sanders, “Human Factors in Engineering and Design”, Tata McGraw Hill,
-1982
-3. “Accident Prevention Manual”, NSC Chicago, 1982
-4. H.W. Henrich, “Industrial Accident Prevention”, McGraw Hill, 1980
-5. F.P. Less, “Loss Prevention in Process Industries”, Butterworth, New Delhi, 1986</pre></div>
-<div><pre>                                   <strong id="item6">Syllabus</strong>
-<b>Integral Calculus – </b>Improper integrals, Area and length of curves, Surface area and volume of solid of
-revolution. Multiple integrals, Change of order of integration
-<b>Partial Differential Equation –</b> Formulation and classification of PDE; Linear partial differential
-equation of the first order (Lagrange’s method) Non-linear PDE of the first order.Four standard forms,
-Charpit’s method.
-<b>Transforms –</b> Fourier series, Laplace Transform and Convergence, Properties of Laplace Transform,
-Inverse Laplace Transform, Fourier Transform, Inverse Fourier Transform, Discrete Fourier
-Transform. Z-Transform, Properties of Z-Transform, Inverse Z-Transform, Relationship between ZTransform, 
-Laplace Transform and Fourier Transform.
-<b>Probability and statistics –</b> Sample space and events, Probability, The axioms of probability, Some
-Elementary theorems, Conditional probability, Baye’s theorem, Random variables, Discrete and
-continuous. Expectation. Binomial, Poisson & normal distributions related properties. Sampling
-distributions, Sampling distribution of means. Coefficient of correlation, Regression Coefficient, The
-lines of regression, The rank correlation
-<b>Complex Variable – </b>Limit,Continuity and Differentiability of complex function, Analytic functions,
-Cauchy-Riemann Equations, Necessary and Sufficient condition for analyticity, Properties of Analytic
-functions, Laplace Equation, Harmonic Functions, Harmonic Conjugate functions and their
-Engineering Applications Complex Integration: Line Integral(contour integral) and its properties,
-Cauchy Integral Formula, Liouville Theorem (without proof), Maximum Modulus Theorems(without
-proof), Applications of Contour Integration - Evaluation of various types of definite real integrals
-using contour
-<b>Text book(s)</b>
-1. R.K. Jain, S.R.K. Iyengar, “Advanced Engineering Mathematics”, Narosa
-2. J. Ravichandran, “Probability and Statistics for Engineers”, Wiley India, 2010
-3. Erwin Kreyszig, “Advanced Engineering Mathematics”, Wiley India
-Reference book(s)
-1. R.V. Hogg, J.W. McKean, A. Craig, “Introduction to Mathematical Statistics”, Pearson Education
-India, 6th Edition
-2. D.W. Jordan, P. Smith, “Mathematical techniques”, Oxford
-3. N.P. Bali, Manish Goyal, “A text Book of Engineering Mathematics”, Laxmi Publications</pre></div>
-<div><pre>                                <strong id="item7"> Syllabus</strong>
-Basic concept of C programming, Array, Insertion and Deletion, Searching (Sequential and binary),
-Sorting (Bubble sort, Insertion, Selection, Merge sort, Quick sort, radix sort), Implementation of
-polynomial and Sparse matrix
-Single and double linked lists, Insertion/deletion/searching in linked lists, Implementation of circular
-lists.
-Stack, Queue, Circular queue, Concept of overflow and underflow, Concept of precedence and
-associativity in expressions, Resolving precedence of operators and association of operands,
-Evaluation of Expression: Infix, Prefix & Postfix notations, conversion of expression from one form
-to other form, Recursion: concepts, use and implementation.
-Hash tables (open and close) and collision handing technique
-Trees, Tree Traversal, constructing Binary tree from Traversal, BST (Binary Search Tree), threaded
-and unthreaded BST as data structure, Insertion/Deletion/Search in BST, Heap Tree and Heap sort,
-height balanced tree.
-Graphs (directed and undirected), representation of graphs using adjacency matrix and list, Graph
-Traversals: DFS and BFS, Topological sorting.
-<b>Text book(s)</b>
-1. Ellis Horowitz, SartajSahni, “Fundamentals of Data Structures”, Computer Science Press
-2. R.L. Kruse, “Data Structure and Program Design”, Prentice-Hall India
-<b>Reference book(s)</b>
-1. A.V. Aho, J.D. Ullman, J.E. Hopcroft, “Data Structures and algorithms”, Addison-Wesley
-2. Y. Langsam, M.J. Augenstein, A.M. Tenenbaum, “Data Structures Using C”, Prentice-Hall India
-3. M.A. Weiss, “Data Structures and Algorithm Analysis in C++”, Pearson Addison-Wesley</pre></div>
-<div><pre>                                <strong  id="item8"> Syllabus</strong>
-<b>IT Workshop – II </b>is a unique course at IIIT Kota wherein students get exposure to various skills
-building activities. Following activities have been offered in past:
+5. Sanjay Kumar, PushpLata, “Communication Skills”, Oxford, 2011</pre>
+</div>
+<div><pre><center id="item5" class="tag">Health Safety & Environment</center>
+Introduction to health and toxicity, various hazards to human health, risk assessment, 
+various acts. 
+Noise and vibration Health effects, exposure and radiation effects, machinery & 
+equipment, electricity at work, Fire & Emergency Egress, Personal Protective Equipment,
+Accidents & Emergencies.
+Safety performance -As per Indian and International standards; Hazard analysis: Cost 
+effectiveness in hazard elimination, logical analysis, HAZOP; Probabilistic reliability 
+considerations, Safety management techniques.
+Water, Air and land pollution - Classification and properties of pollutants, sources, 
+control, Water, wastewater and health, pesticides and health, Solid Waste Management, 
+Environmental Acts & Laws, current topics in environmental heath, Role of Information 
+Technology in Environment & human health, Social Issues and the Environment.
+</pre></div>
+<div><pre><center id="item6" class="tag">Mathematics</center>
+<b>Integral Calculus -</b>Improper integrals, Area and length of curves, Surface area & 
+volume of solid of revolution. Multiple integrals, Change of order of integration
+<b>Partial Differential Equation -</b> Formulation and classification of PDE; Linear 
+partial differential equation of the first order (Lagrange's method) Non-linear PDE of 
+the first order.Four standard forms, Charpit's method.
+<b>Transforms -</b> Fourier series, Laplace Transform and Convergence, Properties of 
+Laplace Transform, Inverse Laplace Transform, Fourier Transform, Inverse Fourier 
+Transform, Discrete Fourier Transform. Z-Transform, Properties of Z-Transform, Inverse 
+Z-Transform, Relationship between ZTransform, Laplace Transform and Fourier Transform.
+<b>Probability and statistics -</b> Sample space and events, Probability, The axioms of 
+probability, Some Elementary theorems, Conditional probability, Baye's theorem, Random 
+variables, Discrete & continuous. Expectation. Binomial, Poisson & normal distributions 
+related properties. Sampling distributions, Sampling distribution of means. Coefficient 
+of correlation, Regression Coefficient, The lines of regression, The rank correlation
+<b>Complex Variable -</b>Limit,Continuity and Differentiability of complex function, 
+Analytic fn, Cauchy-Riemann Equations, Necessary & Sufficient condition for analyticity, 
+Properties of Analytic functions, Laplace Equation, Harmonic Functions, Harmonic Conjugate 
+functions and their Engineering Applications Complex Integration: Line Integral(contour 
+integral) and its properties, Cauchy Integral Formula, Liouville Theorem (without proof), 
+Maximum Modulus Theorems(without proof), Applications of Contour Integration - Evaluation 
+of various types of definite real integrals using contour
+</pre></div>
+<div><pre><center id="item7" class="tag"> DSA Lab</center>
+Basic concept of C programming, Array, Insertion and Deletion, Searching (Sequential and 
+binary),Sorting (Bubble sort, Insertion, Selection, Merge sort, Quick sort, radix sort), 
+Implementation of polynomial and Sparse matrix Single and double linked lists, Insertion/
+deletion/searching in linked lists, Implementation of circular lists.
+Stack, Queue, Circular queue, Concept of overflow and underflow, Concept of precedence &
+associativity in expressions, Resolving precedence of operators and association of 
+operands, Evaluation of Expression: Infix, Prefix & Postfix notations, conversion of 
+expression from one form to other form, Recursion: concepts, use and implementation. 
+Hash tables (open & close) and collision handing technique
+Trees, Tree Traversal, constructing Binary tree from Traversal, BST (Binary Search Tree), 
+threaded & unthreaded BST as data structure, Insertion/Deletion/Search in BST, Heap Tree 
+& Heap sort, height balanced tree.
+Graphs (directed & undirected), representation of graphs using adjacency matrix & list,
+Graph Traversals: DFS and BFS, Topological sorting.
+</pre></div>
+<div><pre><center  id="item8" class="tag"> IWT Lab</center>
+<b>IT Workshop -II </b>is a unique course at IIIT Kota wherein students get exposure 
+to various skills building activities. Following activities have been offered in past:
 Web Development, Beginning HTML and CSS, Creating HTML Content. Photoshop Basics, CSS,
-Customizing Colors and Fonts, Styling Web Pages and Navigation. Java Script, Adding Pages to a
-Website, Responsive design, testing, FTP. Debugging HTML/CSS, Mid Term Evaluation, PHP
-Basics and Functions, Error Handling, SQL Basics. Integrating PHP with Database - Part1,
-Integrating PHP with Database - Part2. Building Dynamic Website with PHP - Part1, Building
-Dynamic Website with PHP - Part2. CloudDeployment
+Customizing Colors and Fonts, Styling Web Pages and Navigation. Java Script, Adding 
+Pages to a Website, Responsive design, testing, FTP. Debugging HTML/CSS, Mid Term 
+Evaluation, PHP Basics and Functions, Error Handling, SQL Basics. Integrating PHP with 
+Database - Part1, Integrating PHP with Database - Part2. Building Dynamic Website with 
+PHP - Part1, Building Dynamic Website with PHP - Part2. CloudDeployment
 <b>Text Book(s)</b>
-1. Craig Knuckles, David Yuen, “Web Applications Technologies Concepts and Real World Design”,
-John Wiley, 1st Edition
+1. Craig Knuckles, David Yuen, “Web Applications Technologies Concepts and Real World 
+Design”, John Wiley, 1st Edition
 2. Robert W. Sebesta, “Programming with World Wide Web”, Pearson, 6th Edition
 3. Daniel Minoli, “Internet & Intranet Engineering”, Tata McGraw Hill.
 <b>Reference Book(s)</b>
 1. Mark Pilgrim, “Dive Into Python 3”, Apress, 2010
-2. W. Jason Gilmore, “Beginning PHP and MySQL: From Novice to Professional”, Apress, 2008</pre></div>
-<div><pre>                                  <strong id="item9">Syllabus</strong>
+2. W. Jason Gilmore, “Beginning PHP & MySQL: From Novice to Professional”, Apress, 2008</pre></div>
+<div><pre><center id="item9" class="tag">EDC Lab</center>
 To study following: Basic measurements using lab equipments (DMM, DSO, function generator,
 power supply). Basic circuit elements (resistor, capacitor, diode, transistor). I-V characteristics of pn
 junction and zener diodes. Half-wave and full-wave rectifiers using pn junction diode. Positive and
@@ -407,7 +374,7 @@ Systems”, Tata McGraw Hill
 2. Donald A. Neamen, “Microelectronics: Circuit Analysis and Design”, McGraw Hill, 4th Edition
 3. Robert Boylestad, Louis Nashelsky, “Electronic Devices and Circuit Theory”, Prentice Hall, 7th
 Edition</pre></div>
-<div><pre>                                   <strong  id="item10">Syllabus</strong>
+<div><pre><center  id="item10" class="tag">Soft Skill Development Lab</center>
 Passages reading and summarizing them, rewriting them with incorporation of new words and
 phrases. The “Why” exercise? Soft skill development - “Let us hear them speak”. Presentations on
 five topics (a picture speaks the thousand words)
@@ -417,7 +384,7 @@ five topics (a picture speaks the thousand words)
 <b>Reference Book(s)</b>
 1. “BBC Super Test Assignment English”
 2. Handouts from the net</pre></div>
-<div><pre>                                    <strong id="item11">Syllabus</strong>
+<div><pre><center id="item11" class="tag">Independant Project</center>
 This unique course at IIIT Kota is aimed to allow students to explore their creative dimension by one
 Independent Project in the first year. This is an unstructured open-ended course where under the
 overall supervision of course coordinators, batches of students will be attached to different instructors.

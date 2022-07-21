@@ -3,6 +3,21 @@
 <head>
 <title>Home</title>
 <style>
+.blink {
+         animation: blinker 4s linear infinite;
+         color: white;
+         font-family: sans-serif;
+         font-size: small;
+        }
+@keyframes blinker {
+      50% {
+            opacity: 0;
+          }
+        }
+
+html {
+  overflow-x: hidden;
+}
 #icon{
 color:white;
 }
@@ -12,81 +27,90 @@ color:white;
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
+
 button:hover{
 background-color:mistyrose;
-height:85px;
-width:260px;
-font-size:25px;
+height:45px;
+width:18%;
+font-size:auto;
 }
 button:active{
-background-color:rgba(233,208,255,0.7);
+background-color:rgba(255, 208, 250, 0.979);
+box-shadow:0 5px gray;
+transform: translateY(4px);
 }
 button{
-font-size:20px;
-border:3px solid black;
+font-size:auto;
+border:2px solid black;
 border-radius:10px;
-height:80px;
-width:220px;
-font-family:courier;
-font-weight:1000;
+height:100%;
+width:18%;
+position:static;
+font-family:'ubuntu-title';
+font-weight:100;
 cursor:pointer;
+margin-right:auto;
 }
 a{
 text-decoration: none;
 color:black;
 font-weight:1000;
-font-family:;
+font-family:'ubuntu-title';
 }
 #if1{
 border:0px;
-width:780px;
-height:590px;
+margin-left: 0%;
+padding-left:auto;
+width:680px;
+height:auto;
 border-radius:30px;
 background-size:cover;
 }
 .flex{
+padding-top: 0px;
 display:flex;
-padding-left:20px;
+padding-left:40px;
 }
 .flex>div{
+padding-top: 0px;
 padding-left:20px;
 }
 #if2{
-padding-top:80px;
-padding-left:10px;
-width:340px;
-height:500px;
 border:0px;
+margin-left: 5%;
+padding-left:0px;
+border-radius:40px;
+width:350px;
+height:350px;
 transition: width 5s, height 5s, transform 5s;
 }
 #if2:active{
-width:300px;
-height:360px;
+width:350px;
+height:350px;
 transform:rotate(360deg);
 }
 body{
-background-image: url(giphy.webp);
-background-size:auto 100%;
+background-image: url(bg.gif);
+background-size:100% 100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
 }
-button:active{
-box-shadow:0 5px gray;
-transform: translateY(4px);
-background-color:pink;
-}
+
 </style>
-<center>
-<body><fieldset style="margin-left:20px;margin-right:20px;margin-top:40px;margin-bottom:40px;border-radius:40px;">
-<button><a href="about.html" target="iframe_1">ABOUT ME </a></button>
-<button><a href="course.html" target="iframe_1"> COURSE</a> </button>
+
+<body><fieldset style="display:block;margin-left:2%;margin-right:2%;margin-top:2%;margin-bottom:2%;border-radius:20px;border:0px;height:60px;width:auto;">
+<button><a href="about.html" target="iframe_1">ABOUT ME</a></button>
+<button><a href="course.html" target="iframe_1">COURSE</a><a href="course_image.html" target="iframe2" style="color:red;">/CURRICULUM</a></button>
 <button><a href="gallery.html" target="iframe_1">COLLAGE </button>
-<button><a href="location.html" target="iframe_1"> LOCATION</a> </button>
-<button><a href="about_html.html" target="iframe_1">ABOUT </a><a href="html.html" target="iframe2" style="color:red;"> HTML</a></button>
+<button><a href="location.html" target="iframe_1">ADDRESS</a> </button>
+<button><a href="about_html.html" target="iframe_1"> ABOUT </a><a href="html.html" target="iframe2" style="color:red;">HTML</a></button>
 </fieldset>
-<div class="flex"><div><marquee scrollamount="3" direction="up" height="500px" ><a href="index.html"><i class="w3-jumbo w3-spin fa fa-home" id="icon" ></i></a></marquee><br></div>
-   <div>
-<iframe name="iframe2" id="if2" src="hi.png" align="top" ></iframe>
+<marquee class="blink" scrollamount="5" direction="left" width=" 300px" >Click on the text in red as well :)</marquee>
 
-<iframe name="iframe_1" id="if1" src="welcome.html" ></iframe></div></div>
+<div class="flex"><div><marquee scrollamount="3" direction="up" height="400px" ><a href="index.html"><i class="w3-jumbo w3-spin fa fa-home" id="icon" ></i></a></marquee><br></div>
 
+<iframe name="iframe2" id="if2" src="wel.png" ></iframe>
+
+<iframe name="iframe_1" id="if1" src="welcome.html" align="right" ></iframe></div>
 </body>
 </html>
